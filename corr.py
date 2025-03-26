@@ -1,7 +1,7 @@
 import pandas as pd
-import openpyxl
+
 # Wczytaj plik
-file_path = "scieki.xlsx"  # Zmień na właściwą ścieżkę do pliku
+file_path = "data/scieki.xlsx"  # Zmień na właściwą ścieżkę do pliku
 df = pd.read_excel(file_path)
 
 # Załóżmy, że Y jest w pierwszej kolumnie
@@ -19,4 +19,4 @@ filtered_df = df[selected_columns]
 # Zapisz wynik do nowego pliku
 filtered_df.to_excel("clean_data.xlsx", index=False)
 
-print("Zapisano plik 'przefiltrowane_dane.xlsx' zawierający tylko istotne zmienne.")
+

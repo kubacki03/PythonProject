@@ -2,7 +2,7 @@ import pandas as pd
 import statsmodels.api as sm
 
 # Wczytaj plik
-file_path = "clean_data.xlsx"  # Zmień na właściwą ścieżkę do pliku
+file_path = "data/clean_data.xlsx"  # Zmień na właściwą ścieżkę do pliku
 df = pd.read_excel(file_path)
 
 # Załóżmy, że Y jest w pierwszej kolumnie

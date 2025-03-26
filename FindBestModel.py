@@ -17,14 +17,14 @@ models = {
         'Support Vector Regressor': SVR()
     }
 
-file_path = "clean_data.xlsx"  # Zmień na właściwą ścieżkę do pliku
+file_path = "data/clean_data.xlsx"
 df = pd.read_excel(file_path)
 
 
 
 y_col = df.columns[0]
-X = df.drop(columns=[y_col])  # Zmienna objaśniające
-y = df[y_col]  # Zmienna zależna
+X = df.drop(columns=[y_col])
+y = df[y_col]
 
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
