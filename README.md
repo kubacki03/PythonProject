@@ -5,3 +5,7 @@ Projekt służy do modelowania a w przyszłości do analizy i prognozowania dany
 -Dobranie zmiennych do modelowania na podstawie współczynnika korelacji
 -Dobranie najelpeszego modelu do zmiennych
 -Analiza regresjii liniowej
+
+
+## Technologie
+-PYTHON
